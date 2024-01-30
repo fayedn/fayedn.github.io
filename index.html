@@ -7,12 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HTML 5 Boilerplate</title>
   <link rel="stylesheet" href="style.css">
-  <script type="module">
-    import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
-    import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
-
-    // Your Three.js code here
-  </script>
 </head>
 
 <body>
@@ -34,6 +28,13 @@
     document.getElementById('yesButton').addEventListener('click', function () {
       window.location.href = 'yes.html';
     });
+  </script>
+
+  <script type="module">
+    import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
+    import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
+
+    // Your Three.js code here
   </script>
 </body>
 <script src="main.js" type="module"></script>
